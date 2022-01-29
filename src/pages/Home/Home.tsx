@@ -1,8 +1,8 @@
-import { Footer } from "../Footer/Footer";
-import { Header } from "../Header/Header";
+import { Footer } from "../../components/Footer/Footer";
+import { Header } from "../../components/Header/Header";
 
 type HomeProps = {
-  user: object;
+  user?: object;
 };
 
 export const Home = (props: HomeProps) => {
